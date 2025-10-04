@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+
+# Local env files
+.env*
+!.env.example
+
+# Log files
+logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Vercel/Netlify deploy settings (optional)
+.vercel/
+.netlify/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build outputs
+dist/
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
