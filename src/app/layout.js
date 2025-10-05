@@ -7,8 +7,8 @@ import { SocketProvider } from './context/SocketContext'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'King Ice Restaurant - Landhi Branch',
-  description: 'King Ice offers an exclusive range of Fast Foot | BBQ and Ice Cream at Korangi and Landi Town.',
+  title: 'Khas Chips and Nimko',
+  description: 'Khas Chips and Nimko specialize in making high-quality chips and Nimko that bring taste, freshness, and satisfaction to every bite.',
 }
 
 export default function RootLayout({ children }) {
