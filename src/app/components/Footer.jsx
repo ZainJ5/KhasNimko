@@ -140,10 +140,10 @@ export default function Footer() {
                 <a href={`tel:${footerData.contact.uanNumber}`} className="font-bold text-black hover:underline">
                   {footerData.contact.uanNumber}
                 </a> 
-                <span>/</span>
+                {/* <span>/</span>
                 <a href={`tel:03122754064`} className="font-bold text-black hover:underline">
                   0312 2754064
-                </a>
+                </a> */}
                 </div>
               </p>
             </div>
