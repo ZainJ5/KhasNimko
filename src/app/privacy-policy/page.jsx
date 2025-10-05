@@ -16,7 +16,7 @@ export default function PrivacyPolicyPage() {
           <section className="p-6 rounded-lg shadow-sm">
             <h2 className="text-2xl font-semibold mb-4">INTRODUCTION</h2>
             <p className="text-gray-700 leading-relaxed">
-              We welcome you to King Ice Restaurant. Your privacy and data
+              We welcome you to Khas Chips and Nimko. Your privacy and data
               security is our primary concern, and we intend to keep your
               personal information safe and secure. To know more about how the
               Site collects, uses and discloses your personal information (under

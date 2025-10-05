@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isLogoLoading, setIsLogoLoading] = useState(true);
   const [navbarData, setNavbarData] = useState({
     restaurant: {
-      name: "Tipu Burger & Broast",
+      name: "Khas Chips and Nimko",
       openingHours: "11:30 am to 3:30 am"
     },
     delivery: {

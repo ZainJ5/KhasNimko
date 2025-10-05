@@ -9,7 +9,7 @@ import 'swiper/css'
 export default function Footer() {
   const [footerData, setFooterData] = useState({
     restaurant: {
-      name: "Tipu Burger & Broast",
+      name: "Khas Chips and Nimko",
       address: "Clifton Center، Shop No 1, Clifton Shopping Arcade، Bank Road, Block 5 Clifton, Karachi, 75600",
       description: "The best food in Town! Established in 1993. At the time of opening we started with the bun kabab's but now we have opened the complete FAST FOOD and BAR-B-Q. Just all pure are being used here.",
       establishedYear: 1993,
