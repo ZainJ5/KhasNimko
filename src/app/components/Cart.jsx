@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { useCartStore } from '../../store/cart'
 
-var ORDER_MINIMUMS = { DEFAULT: 0 };
+var ORDER_MINIMUMS = { DEFAULT: 1000 };
 
 export default function CartDrawer({ isOpen, onClose }) {
   const router = useRouter();
