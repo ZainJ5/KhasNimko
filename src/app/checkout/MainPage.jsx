@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useOrderTypeStore } from "../../store/orderTypeStore";
 import { useCartStore } from "../../store/cart";
 import { useBranchStore } from "../../store/branchStore";
-import { useDeliveryAreaStore } from "../../store/deliveryAreaStore"; // Import the delivery area store
+import { useDeliveryAreaStore } from "../../store/deliveryAreaStore"; 
 import DeliveryPickupModal from "../components/DeliveryPickupModal";
 import { useRouter } from "next/navigation";
 
