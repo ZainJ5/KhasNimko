@@ -220,9 +220,8 @@ export default `<!DOCTYPE html>
 <body>
   <div class="receipt-container">
     <div class="header">
-      <div class="restaurant-name">KING ICE FAST FOOD</div>
-      <div class="restaurant-info">Landhi 3 1/2 SNTN 5609626-7</div>
-      <div class="restaurant-info">All Prices Are Inclusive of 13% SST</div>
+      <div class="restaurant-name">Khas Chips and Nimko</div>
+      <div class="restaurant-info">Sector 31A Korangi Industrial Area Karachi</div>
     </div>
 
     <div class="title-container">

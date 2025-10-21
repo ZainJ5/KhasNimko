@@ -172,7 +172,7 @@ export default `<!DOCTYPE html>
     </table>
 
     <div class="footer">
-      <div>KING ICE - KITCHEN SLIP</div>
+      <div>Khas Chips and Nimko - KITCHEN SLIP</div>
     </div>
   </div>
 
