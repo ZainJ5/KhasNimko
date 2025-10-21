@@ -260,7 +260,7 @@ function OrderDetailContent() {
                 />
               )}
               <div className="ml-3">
-                <h1 className="font-bold text-lg text-gray-900">King Ice Restaurant</h1>
+                <h1 className="font-bold text-lg text-gray-900">Khas Chips and Nimko</h1>
                 <p className="text-sm text-green-600">Open Now</p>
               </div>
             </div>
@@ -648,7 +648,7 @@ function OrderDetailContent() {
                     className="h-10 w-auto" 
                   />
                 )}
-                <h3 className="ml-2 font-medium text-gray-900">King Ice Restaurant</h3>
+                <h3 className="ml-2 font-medium text-gray-900">Khas Chips and Nimko</h3>
               </div>
               <p className="mt-2 text-sm text-gray-600">
                 Serving delicious meals and refreshing ice cream across Pakistan.
@@ -684,7 +684,7 @@ function OrderDetailContent() {
           
           <div className="mt-8 pt-6 border-t border-gray-200">
             <p className="text-sm text-gray-500 text-center">
-              © {new Date().getFullYear()} King Ice Restaurant. All rights reserved.
+              © {new Date().getFullYear()} Khas Chips and Nimko. All rights reserved.
             </p>
           </div>
         </div>
