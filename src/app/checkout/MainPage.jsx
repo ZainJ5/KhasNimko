@@ -115,25 +115,25 @@ export default function CheckoutPage() {
 
   const easypaisaDetails = {
     title: "EasyPaisa Payment Details",
-    accountNumber: "03101300101",
-    accountName: "Burhan Ahmed",
+    accountNumber: "03232287080",
+    accountName: "Ubaid Ur Rehman",
     instructions:
       "Transfer using the EasyPaisa app and upload a screenshot of your transaction.",
   };
 
   const jazzcashDetails = {
     title: "JazzCash Payment Details",
-    accountNumber: "444555666",
-    accountName: "JazzCash Merchant",
+    accountNumber: "03002516744",
+    accountName: "Ubaid Ur Rehman",
     instructions:
       "Pay via JazzCash and upload a screenshot of your payment confirmation.",
   };
 
   const bankTransferDetails = {
     title: "Bank Transfer Details",
-    bankName: "ABC Bank",
-    accountNumber: "1234567890",
-    accountName: "Your Business Name",
+    bankName: "Meezan Bank",
+    accountNumber: "01090112399310",
+    accountName: "Khas Chips and Nimko",
     branch: "Main Branch",
     instructions:
       "Transfer the payment to the bank account and upload the transaction receipt.",
@@ -960,10 +960,10 @@ const handlePlaceOrder = async () => {
                       </button>
                       <button
                         type="button"
-                        // onClick={() => {
-                        //   setOnlineOption("jazzcash");
-                        //   setReceiptFile(null);
-                        // }}
+                        onClick={() => {
+                          setOnlineOption("jazzcash");
+                          setReceiptFile(null);
+                        }}
                         className={`p-4 border rounded-md flex flex-col items-center justify-center space-y-2 ${
                           onlineOption === "jazzcash"
                             ? "border-blue-500 bg-blue-50"
@@ -976,10 +976,10 @@ const handlePlaceOrder = async () => {
                       </button>
                       <button
                         type="button"
-                        // onClick={() => {
-                        //   setOnlineOption("bank_transfer");
-                        //   setReceiptFile(null);
-                        // }}
+                        onClick={() => {
+                          setOnlineOption("bank_transfer");
+                          setReceiptFile(null);
+                        }}
                         className={`p-4 border rounded-md flex flex-col items-center justify-center space-y-2 ${
                           onlineOption === "bank_transfer"
                             ? "border-red-500 bg-red-50"
