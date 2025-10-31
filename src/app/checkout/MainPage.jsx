@@ -972,7 +972,7 @@ const handlePlaceOrder = async () => {
                       >
                         <FaCreditCard className="text-blue-500" size={24} />
                         <span>JazzCash</span>
-                        <span className="text-xs text-gray-500">(Coming Soon)</span>
+                        {/* <span className="text-xs text-gray-500">(Coming Soon)</span> */}
                       </button>
                       <button
                         type="button"
@@ -988,7 +988,7 @@ const handlePlaceOrder = async () => {
                       >
                         <FaCreditCard className="text-red-500" size={24} />
                         <span>Bank Transfer</span>
-                        <span className="text-xs text-gray-500">(Coming Soon)</span>
+                        {/* <span className="text-xs text-gray-500">(Coming Soon)</span> */}
                       </button>
                     </div>
                     {onlineOption === "easypaisa" && (
