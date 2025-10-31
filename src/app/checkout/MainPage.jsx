@@ -967,7 +967,7 @@ const handlePlaceOrder = async () => {
                         className={`p-4 border rounded-md flex flex-col items-center justify-center space-y-2 ${
                           onlineOption === "jazzcash"
                             ? "border-blue-500 bg-blue-50"
-                            : "border-gray-200 opacity-50"
+                            : "border-gray-200"
                         }`}
                       >
                         <FaCreditCard className="text-blue-500" size={24} />
@@ -983,7 +983,7 @@ const handlePlaceOrder = async () => {
                         className={`p-4 border rounded-md flex flex-col items-center justify-center space-y-2 ${
                           onlineOption === "bank_transfer"
                             ? "border-red-500 bg-red-50"
-                            : "border-gray-200 opacity-50"
+                            : "border-gray-200"
                         }`}
                       >
                         <FaCreditCard className="text-red-500" size={24} />
@@ -1067,9 +1067,9 @@ const handlePlaceOrder = async () => {
                           <strong>Account Name:</strong>{" "}
                           {bankTransferDetails.accountName}
                         </p>
-                        <p>
+                        {/* <p>
                           <strong>Branch:</strong> {bankTransferDetails.branch}
-                        </p>
+                        </p> */}
                         <p>
                           <strong>Instructions:</strong>{" "}
                           {bankTransferDetails.instructions}
